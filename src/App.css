@@ -14,6 +14,7 @@
 }
 
 .user-card,
+.admin-card,
 .error-fallback {
   width: 100%;
   box-sizing: border-box;
@@ -22,11 +23,13 @@
   border: 1px solid var(--border);
 }
 
-.user-card {
+.user-card,
+.admin-card {
   background: var(--code-bg);
 }
 
-.user-name {
+.user-name,
+.admin-role {
   font-weight: 600;
   color: var(--text-h);
   margin-bottom: 4px;
